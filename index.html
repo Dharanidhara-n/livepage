@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>sign-up form</title>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+      </head>
+    <style>
+        body{
+            margin:200px 0 0 450px;
+            background-image:url("https://m.media-amazon.com/images/I/61uYuKQhJRL._SL1483_.jpg");
+            background-size:cover;
+        }
+        fieldset{
+            width:fit-content;
+            text-align: center;
+            font-weight: 20px;
+            font-size: 15px;
+            font-style: Timesnewroman;
+            background-color:gainsboro;
+            border-radius: 20px;
+        }
+        legend{
+            text-align:left;
+        }
+    </style>
+</head>
+<body>
+    <form class="animate__animated animate__fadeInUp">
+    <fieldset>
+        <legend>sign-up</legend>
+        <table>
+            <tr>
+                <td>
+                    <label for="name">Firstname:</label>
+                </td>
+                <td>
+                    <input type="text" id="name" placeholder="Enter your Name"> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                   <label for="Lastname">Lastname:</label> 
+                </td>
+                <td>
+                    <input type="text" id="Lastname" placeholder="last name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="mailid">Email-Id:</label>
+                </td>
+                <td>
+                    <input type="email" id="mailid" placeholder="Your mail Id">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pwd">Password:</label>
+                </td>
+                <td>
+                    <input type="password" id="pwd" placeholder="enter 8 digit password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pass">Confirm password:</label>
+                </td>
+                <td>
+                    <input type="password" id="pass" placeholder="enter 8 digit password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Dob">Date Of Birth:</label>
+                </td>
+                <td>
+                    <input type="date" id="Dob">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="phone">contact Number:</label>
+                </td>
+                <td>
+                    <input type="number" id="phone" placeholder="+91-0000000000">
+                </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="gender">Gender:</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="gender">male
+                        <input type="radio" name="gender">female
+                        <input type="radio" name="gender">others
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="save">
+                    </td>
+                </tr>
+        </table>
+    </fieldset>
+    </form>
+    
+</body>
+</html>
